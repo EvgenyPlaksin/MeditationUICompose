@@ -82,7 +82,8 @@ fun HomeScreen(){
                         Beige2,
                         Beige3
                     )
-                )
+                ),
+                title = "Features"
             )
         }
 //        val navController = rememberNavController()
@@ -291,13 +292,14 @@ fun CurrentMeditation(
 
 @Composable
 fun FeatureSection(
-    features: List<Feature>
+    features: List<Feature>,
+    title: String
 ){
     Column(modifier = Modifier.fillMaxWidth()) {
         Text(
-            text = "Features",
+            text = title,
             style = MaterialTheme.typography.h1,
-            modifier = Modifier.padding(15.dp)
+            modifier = Modifier.padding(bottom = 15.dp, start = 15.dp, end = 15.dp)
         )
         LazyVerticalGrid(
             cells = GridCells.Fixed(2),
