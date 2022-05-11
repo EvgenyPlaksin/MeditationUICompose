@@ -248,7 +248,8 @@ fun ChipSection(
 
 @Composable
 fun CurrentMeditation(
-    color: Color = LightRed
+    color: Color = LightRed,
+    titleText: String = "Daily Thought"
 ){
     Row(
         verticalAlignment = Alignment.CenterVertically,
@@ -262,7 +263,7 @@ fun CurrentMeditation(
     ){
         Column{
             Text(
-                text = "Daily Thought",
+                text = titleText,
                 style = MaterialTheme.typography.h2
             )
 
