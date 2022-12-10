@@ -1,15 +1,15 @@
 @file:OptIn(ExperimentalFoundationApi::class)
 
-package com.plcoding.meditationuiyoutube.ui
+package com.lnight.meditationuicompose.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.GridCells
 import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Icon
@@ -31,15 +31,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
-import com.plcoding.meditationuiyoutube.utils.data.BottomMenuContent
-import com.plcoding.meditationuiyoutube.utils.data.Feature
-
-import com.plcoding.meditationuiyoutube.R
-import com.plcoding.meditationuiyoutube.utils.standardQuadFromTo
-
-import com.plcoding.meditationuiyoutube.ui.theme.*
-import com.plcoding.meditationuiyoutube.utils.navutils.Screen
+import com.lnight.meditationuicompose.utils.data.BottomMenuContent
+import com.lnight.meditationuicompose.utils.data.Feature
+import com.lnight.meditationuicompose.R
+import com.lnight.meditationuicompose.utils.standardQuadFromTo
+import com.lnight.meditationuicompose.ui.theme.*
+import com.lnight.meditationuicompose.utils.navutils.Screen
 
 @Composable
 fun HomeScreen(){
@@ -303,7 +300,7 @@ fun FeatureSection(
             modifier = Modifier.padding(bottom = 15.dp, start = 15.dp, end = 15.dp)
         )
         LazyVerticalGrid(
-            cells = GridCells.Fixed(2),
+            columns = GridCells.Fixed(2),
             contentPadding = PaddingValues(start = 7.5.dp, end = 7.5.dp, bottom = 100.dp),
             modifier = Modifier.fillMaxHeight()){
             items(features.size){

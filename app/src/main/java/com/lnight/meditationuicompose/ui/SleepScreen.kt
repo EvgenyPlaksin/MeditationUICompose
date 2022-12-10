@@ -1,4 +1,4 @@
-package com.plcoding.meditationuiyoutube.ui
+package com.lnight.meditationuicompose.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -8,9 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.sp
-import com.plcoding.meditationuiyoutube.R
-import com.plcoding.meditationuiyoutube.ui.theme.DeepBlue
-import com.plcoding.meditationuiyoutube.utils.data.BottomMenuContent
+import com.lnight.meditationuicompose.ui.theme.DeepBlue
 
 
 @Composable
@@ -37,6 +35,6 @@ fun SleepScreen() {
             .fillMaxSize(),
         contentAlignment = Alignment.Center
     ){
-        Text(text = "Profile", fontSize = 30.sp)
+        Text(text = "Sleep", fontSize = 30.sp)
     }
 }

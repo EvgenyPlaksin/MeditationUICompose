@@ -1,11 +1,11 @@
-package com.plcoding.meditationuiyoutube.ui
+package com.lnight.meditationuicompose.ui
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-
+import com.lnight.meditationuicompose.R
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Divider
 import androidx.compose.material.Icon
@@ -26,11 +26,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 
-import com.plcoding.meditationuiyoutube.R
-import com.plcoding.meditationuiyoutube.utils.standardQuadFromTo
+import com.lnight.meditationuicompose.utils.standardQuadFromTo
 
-import com.plcoding.meditationuiyoutube.ui.theme.*
-import com.plcoding.meditationuiyoutube.utils.data.Feature
+import com.lnight.meditationuicompose.ui.theme.*
+import com.lnight.meditationuicompose.utils.data.Feature
 
 
 @Composable

@@ -1,11 +1,11 @@
-package com.plcoding.meditationuiyoutube.navigation
+package com.lnight.meditationuicompose.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.plcoding.meditationuiyoutube.ui.*
-import com.plcoding.meditationuiyoutube.utils.navutils.Screen
+import com.lnight.meditationuicompose.ui.*
+import com.lnight.meditationuicompose.utils.navutils.Screen
 
 @Composable
 fun Navigation(navController: NavHostController){

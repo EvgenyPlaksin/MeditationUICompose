@@ -1,4 +1,4 @@
-package com.plcoding.meditationuiyoutube
+package com.lnight.meditationuicompose
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

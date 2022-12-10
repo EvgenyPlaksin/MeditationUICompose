@@ -1,4 +1,4 @@
-package com.plcoding.meditationuiyoutube.ui
+package com.lnight.meditationuicompose.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -18,11 +18,9 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.plcoding.meditationuiyoutube.R
-import com.plcoding.meditationuiyoutube.ui.theme.*
-import com.plcoding.meditationuiyoutube.utils.data.Feature
-import com.plcoding.meditationuiyoutube.utils.data.MusicBoxContent
-import com.plcoding.meditationuiyoutube.utils.standardQuadFromTo
+import com.lnight.meditationuicompose.ui.theme.*
+import com.lnight.meditationuicompose.utils.data.MusicBoxContent
+import com.lnight.meditationuicompose.utils.standardQuadFromTo
 
 
 @Composable

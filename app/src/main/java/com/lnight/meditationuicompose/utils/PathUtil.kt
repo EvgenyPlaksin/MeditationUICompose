@@ -1,4 +1,4 @@
-package com.plcoding.meditationuiyoutube.utils
+package com.lnight.meditationuicompose.utils
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Path

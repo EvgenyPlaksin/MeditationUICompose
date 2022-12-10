@@ -1,4 +1,4 @@
-package com.plcoding.meditationuiyoutube.utils.data
+package com.lnight.meditationuicompose.utils.data
 
 import androidx.annotation.DrawableRes
 

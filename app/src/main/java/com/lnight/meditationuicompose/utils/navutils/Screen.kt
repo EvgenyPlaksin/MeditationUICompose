@@ -1,6 +1,4 @@
-package com.plcoding.meditationuiyoutube.utils.navutils
-
-import androidx.navigation.compose.rememberNavController
+package com.lnight.meditationuicompose.utils.navutils
 
 sealed class Screen(val route: String){
     object HomeScreen: Screen("main_screen")

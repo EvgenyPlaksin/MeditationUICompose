@@ -1,4 +1,4 @@
-package com.plcoding.meditationuiyoutube.ui.theme
+package com.lnight.meditationuicompose.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
